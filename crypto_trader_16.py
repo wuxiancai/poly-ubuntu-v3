@@ -392,7 +392,7 @@ class CryptoTrader:
         # 14按钮
         self.trade_buttons["14"] = ttk.Button(settings_container, text="14", width=5, 
                                             command=lambda: self.set_amount_values("14"),
-                                            style='Blue.TButton')
+                                            style='Black.TButton')
         self.trade_buttons["14"].grid(row=1, column=3, padx=3, pady=3)
 
         # 16按钮
